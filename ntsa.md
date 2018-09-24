@@ -20,11 +20,7 @@ Note:
 y is also called the endogenous variables in the economic setting
 
 
-Notice that this setting relys on the "markovianity" property of underlying process. 
-This may not be true, for complex dynamical systems as the stock market or web traffic.
-
-
-We can consider some driving series `x` that influence the target series `y`, and modify the problem as follows:
+For multivariate setting instead we can consider some driving series `x` that influences the target series `y`: 
 
 `y_t = f(y, x, t)`
 
